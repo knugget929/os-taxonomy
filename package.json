@@ -1,12 +1,18 @@
 {
-  "name": "marble-taxonomy",
+  "name": "tessai-knowledge-spine",
   "version": "1.0.0",
-  "description": "An open, graph-structured taxonomy of primary/elementary learning.",
+  "description": "An interactive TESSAi knowledge spine built on an open, graph-structured taxonomy of primary learning.",
   "private": true,
   "type": "module",
   "license": "(ODbL-1.0 AND CC-BY-SA-4.0)",
-  "homepage": "https://withmarble.com",
+  "homepage": "https://withmarble.com/curriculum",
   "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && vite build",
+    "preview": "vite preview",
     "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
   }
 }

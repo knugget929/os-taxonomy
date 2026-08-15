@@ -1,5 +1,35 @@
 # Marble Skill Taxonomy
 
+## TESSAi Knowledge Spine — interactive project
+
+This fork adds a full-screen, three-dimensional knowledge-graph experience on top of the open taxonomy. It is a new project intended to become the reusable graph engine and data model for the **TESSAi Knowledge Spine**.
+
+The interaction model is built for exploration rather than decoration:
+
+- drag to rotate the stable spatial model;
+- scroll, pinch, double-click, or use the controls to zoom;
+- filter the graph by subject without losing orientation;
+- hover or tap any concept for plain-language context;
+- trace direct prerequisites, all upstream prerequisites, and what each concept unlocks;
+- follow relationships from the concept drawer with Back navigation;
+- search across concept names, descriptions, domains, and subjects;
+- use the same core experience across desktop, tablet, and touch devices.
+
+Run the interactive project locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+The website code is original to the TESSAi project. The underlying Marble database and authored taxonomy content retain the licenses and attribution described below.
+
 An open, structured taxonomy of **what children learn** across the primary/elementary years — decomposed into fine-grained "micro-topics", wired into a prerequisite graph, and aligned to national curriculum standards. Produced by [Marble](https://withmarble.com).
 
 > **Version:** `v1` · **Topics:** 1,590 · **Prerequisite edges:** 3,221 · **Subjects:** 8
